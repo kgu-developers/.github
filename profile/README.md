@@ -20,4 +20,4 @@
 ### Server
 |[<img src="https://avatars.githubusercontent.com/minjo-on" alt="박민준" width="150" />](https://github.com/minjo-on)|[<img src="https://avatars.githubusercontent.com/LeeShinHaeng" alt="이신행" width="150" />](https://github.com/LeeShinHaeng)|[<img src="https://avatars.githubusercontent.com/LeeHanEum" alt="이한음" width="150" />](https://github.com/LeeHanEum)|
 |:---:|:---:|:---:|
-| [**박민준**](https://github.com/minjo-on) | [**이신행**](https://github.com/gwansikk) | [**이한음**](https://github.com/LeeHanEum) |
+| [**박민준**](https://github.com/minjo-on) | [**이신행**](https://github.com/LeeShinHaeng) | [**이한음**](https://github.com/LeeHanEum) |
