@@ -1,13 +1,13 @@
 ![hero-kgu-developers](https://github.com/user-attachments/assets/04c94a25-9456-43c6-a9b5-5f1e2f58b842)
 
-KGU Developers는 경기대학교 소프트웨어경영대학 AI컴퓨터공학부 소속의 서비스 개발 조직입니다.
+**KGU Developers**는 경기대학교 소프트웨어경영대학 AI컴퓨터공학부 소속의 서비스 개발 조직입니다.
 
 &nbsp;
 
 ## 🚀 Services
-- AI컴퓨터공학부 커뮤니티 (2024.10.10 ~ Work in progress)
-- 졸업 논문 서비스 (Scheduled)
-- What's next?
+- **AI컴퓨터공학부 커뮤니티** <sub><sup>(2024.10.10 ~ Work in progress)</sup></sub>
+- **졸업 논문 서비스** <sub><sup>(Scheduled)</sup></sub>
+- *What's next?*
 
 &nbsp;
 
