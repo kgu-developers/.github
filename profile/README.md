@@ -13,11 +13,11 @@
 
 ## 👨🏻‍💻 Members
 ### Client
-|[<img src="https://avatars.githubusercontent.com/m2na7" alt="강민하" width="150" />](https://github.com/m2na7)|[<img src="https://avatars.githubusercontent.com/gwansikk" alt="김관식" width="150" />](https://github.com/gwansikk)|[<img src="https://avatars.githubusercontent.com/SunwooJaeho" alt="선우재호" width="150" />](https://github.com/SunwooJaeho)|[<img src="https://avatars.githubusercontent.com/wontory" alt="조성원" width="150" />](https://github.com/wontory)|
+|[<img src="https://github.com/m2na7.png" alt="강민하" width="150" />](https://github.com/m2na7)|[<img src="https://github.com/gwansikk.png" alt="김관식" width="150" />](https://github.com/gwansikk)|[<img src="https://github.com/SunwooJaeho.png" alt="선우재호" width="150" />](https://github.com/SunwooJaeho)|[<img src="https://github.com/wontory.png" alt="조성원" width="150" />](https://github.com/wontory)|
 |:---:|:---:|:---:|:---:|
 | [**강민하**](https://github.com/m2na7) | [**김관식**](https://github.com/gwansikk) | [**선우재호**](https://github.com/SunwooJaeho) | [**조성원**](https://github.com/wontory) |
 
 ### Server
-|[<img src="https://avatars.githubusercontent.com/minjo-on" alt="박민준" width="150" />](https://github.com/minjo-on)|[<img src="https://avatars.githubusercontent.com/LeeShinHaeng" alt="이신행" width="150" />](https://github.com/LeeShinHaeng)|[<img src="https://avatars.githubusercontent.com/LeeHanEum" alt="이한음" width="150" />](https://github.com/LeeHanEum)|
+|[<img src="https://github.com/minjo-on.png" alt="박민준" width="150" />](https://github.com/minjo-on)|[<img src="https://github.com/LeeShinHaeng.png" alt="이신행" width="150" />](https://github.com/LeeShinHaeng)|[<img src="https://github.com/LeeHanEum.png" alt="이한음" width="150" />](https://github.com/LeeHanEum)|
 |:---:|:---:|:---:|
 | [**박민준**](https://github.com/minjo-on) | [**이신행**](https://github.com/LeeShinHaeng) | [**이한음**](https://github.com/LeeHanEum) |
