@@ -1,0 +1,83 @@
+name: Update Members
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-members
+  cancel-in-progress: false
+
+jobs:
+  update-members:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update README members
+        uses: actions/github-script@v9
+        env:
+          ORG_MEMBERS_TOKEN: ${{ secrets.ORG_MEMBERS_TOKEN }}
+        with:
+          script: |
+            if (!process.env.ORG_MEMBERS_TOKEN) {
+              throw new Error("ORG_MEMBERS_TOKEN Secret을 등록해주세요.");
+            }
+
+            const membersClient = getOctokit(process.env.ORG_MEMBERS_TOKEN);
+            const teams = [
+              ["3기", "3"],
+              ["2기", "2"],
+              ["1기", "1"],
+            ];
+
+            const branch = context.payload.repository.default_branch;
+            const path = "profile/README.md";
+            const { data: file } = await github.rest.repos.getContent({
+              ...context.repo, path, ref: branch,
+            });
+            const current = Buffer.from(file.content, "base64").toString("utf8");
+            const region = /<!-- MEMBERS:START -->[\s\S]*?<!-- MEMBERS:END -->/;
+
+            if (!region.test(current)) {
+              throw new Error("README에 MEMBERS:START/END 표시를 추가해주세요.");
+            }
+
+            const blocks = [];
+
+            for (const [label, slug] of teams) {
+              const members = await membersClient.paginate(
+                "GET /orgs/{org}/teams/{team_slug}/members",
+                { org: context.repo.owner, team_slug: slug, per_page: 100 },
+              );
+
+              members.sort((a, b) => a.login.localeCompare(b.login, "en"));
+
+              const avatars = members.map((member) =>
+                `<a href="${member.html_url}"><img src="${member.avatar_url}" width="64" height="64" alt="${member.login}" title="${member.login}" /></a>`
+              ).join("\n");
+
+              blocks.push(`### ${label}\n\n<p>\n${avatars || "등록된 멤버가 없습니다."}\n</p>\n`);
+            }
+
+            const updated = current.replace(region, () =>
+              `<!-- MEMBERS:START -->\n\n${blocks.join("\n")}\n<!-- MEMBERS:END -->`
+            );
+
+            if (updated === current) {
+              core.info("변경된 멤버 정보가 없습니다.");
+              return;
+            }
+
+            await github.rest.repos.createOrUpdateFileContents({
+              ...context.repo,
+              path,
+              branch,
+              sha: file.sha,
+              message: "docs: 기수별 멤버 목록 갱신",
+              content: Buffer.from(updated, "utf8").toString("base64"),
+            });
+
+            core.info("멤버 목록을 갱신했습니다.");
