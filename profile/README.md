@@ -11,28 +11,7 @@
 
 &nbsp;
 
-## 👨🏻‍💻 1~2 Members
-### Client
+## 👨🏻‍💻 Members
 
-<a href = "https://github.com/kgu-developers/aics-client/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-client"/>
-</a>
-
-### Server
-
-<a href = "https://github.com/kgu-developers/aics-server/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-server"/>
-</a>
-
-## 👨🏻‍💻 3 Members
-### Client
-
-<a href = "https://github.com/kgu-developers/aics-team-project-client/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-team-project-client"/>
-</a>
-
-### Server
-
-<a href = "https://github.com/kgu-developers/aics-team-project-server/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-team-project-server"/>
-</a>
+<!-- MEMBERS:START -->
+<!-- MEMBERS:END -->
