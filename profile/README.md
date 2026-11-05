@@ -5,13 +5,13 @@
 &nbsp;
 
 ## 🚀 Services
-- **AI컴퓨터공학부 커뮤니티** <sub><sup>(2024.10.10 ~ Work in progress)</sup></sub>
-- **졸업 논문 서비스** <sub><sup>(Scheduled)</sup></sub>
-- *What's next?*
+- **AI컴퓨터공학부 커뮤니티** <sub><sup>(2024.10.10 ~ 2025.08.20)</sup></sub>
+- **졸업 논문 서비스** <sub><sup>(2025.08.13 ~ 2026.06.14)</sup></sub>
+- **객체지향프로그래밍 협업 서비스** <sub><sup>(2026.06.10 ~ )</sup></sub>
 
 &nbsp;
 
-## 👨🏻‍💻 Members
+## 👨🏻‍💻 1~2 Members
 ### Client
 
 <a href = "https://github.com/kgu-developers/aics-client/graphs/contributors">
@@ -22,4 +22,17 @@
 
 <a href = "https://github.com/kgu-developers/aics-server/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-server"/>
+</a>
+
+## 👨🏻‍💻 3 Members
+### Client
+
+<a href = "https://github.com/kgu-developers/aics-team-project-client/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-team-project-client"/>
+</a>
+
+### Server
+
+<a href = "https://github.com/kgu-developers/aics-team-project-server/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=kgu-developers/aics-team-project-server"/>
 </a>
